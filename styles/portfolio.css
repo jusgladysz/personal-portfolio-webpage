@@ -1,9 +1,14 @@
 body{
-    background-color: azure;
+    background-color: #ff2415;
 }
 
-@media (max-width: 500px){
+@media (max-width: 800px){
     body{
         background-color: blue;
     }
+}
+
+.welcome-section{
+    background-color: aqua;
+    height:100vh;
 }
