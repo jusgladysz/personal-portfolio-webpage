@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 @media (max-width: 800px) {
     body {
         background-color: blue;
@@ -12,13 +17,10 @@ body {
 .welcome-section {
     background-color: aqua;
     height: 100vh;
-    margin: 0;
-    top:0;
 }
 
 .navbar {
     position: fixed;
-    top:0;
-    background-color: transparent;
-    margin:0;
+    top: 0;
+    background-color: gray;
 }
