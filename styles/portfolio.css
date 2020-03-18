@@ -1,14 +1,24 @@
-body{
+body {
     background-color: #ff2415;
+    margin: 0;
 }
 
-@media (max-width: 800px){
-    body{
+@media (max-width: 800px) {
+    body {
         background-color: blue;
     }
 }
 
-.welcome-section{
+.welcome-section {
     background-color: aqua;
-    height:100vh;
+    height: 100vh;
+    margin: 0;
+    top:0;
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    background-color: transparent;
+    margin:0;
 }
