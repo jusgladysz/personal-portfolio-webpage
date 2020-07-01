@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio Webpage - Justyna Gładysz</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Varela">
-    <link rel="stylesheet"
-          href="styles/portfolio.css">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela"
+          rel="stylesheet">
+    <link href="styles/portfolio.css"
+          rel="stylesheet">
 </head>
 <body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <main>
-    <nav class="navbar" id="navbar">
-        <ul>
-            <li><a class="navlink" href="#about-me">About me</a></li>
-            <li><a class="navlink" href="#projects">Portfolio</a></li>
-            <li><a class="navlink" href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar-custom" id="navbar">
+        <div class="container">
+            <div class="nav justify-content-end">
+                <a class="nav-link" href="#about-me">About me</a>
+                <a class="nav-link" href="#projects">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
     </nav>
     <section class="welcome-section" id="welcome-section">
         <h1>Welcome</h1>
@@ -38,7 +41,7 @@
         </div>
     </section>
     <section id="contact">
-        <a id="profile-link" href="https://github.com/jusgladysz" target="_blank">Github profile</a>
+        <a href="https://github.com/jusgladysz" id="profile-link" target="_blank">Github profile</a>
     </section>
 </main>
 </body>
