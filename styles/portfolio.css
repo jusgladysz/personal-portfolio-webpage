@@ -1,18 +1,21 @@
-h1 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
 @media (max-width: 800px) {
     body {
         background-color: blue;
     }
 }
 
-.welcome-section {
+.welcome {
     background-image: url("../assets/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg");
     background-position: center;
     height: 100vh;
+}
+
+.welcome-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4e565e;
 }
 
 .navbar-custom {
@@ -20,4 +23,8 @@ h1 {
     top: 0;
     background-color: transparent;
     width: 100%;
+}
+
+a {
+    color: black;
 }
