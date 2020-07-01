@@ -4,6 +4,10 @@
     }
 }
 
+body {
+    background-color: #f1f2f6;
+}
+
 .welcome {
     background-image: url("../assets/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg");
     background-position: center;
@@ -27,4 +31,8 @@
 
 a {
     color: black;
+}
+
+.project-tile {
+    margin: 5px;
 }
