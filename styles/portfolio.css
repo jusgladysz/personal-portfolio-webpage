@@ -10,7 +10,8 @@ h1 {
 }
 
 .welcome-section {
-    background-color: aqua;
+    background-image: url("../assets/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg");
+    background-position: center;
     height: 100vh;
 }
 
