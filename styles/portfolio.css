@@ -25,13 +25,21 @@ body {
 .navbar-custom {
     position: fixed;
     top: 0;
-    background-color: transparent;
+    background-color: #282c34;
+    color: #f1f2f6;
+    font-weight: bold;
     width: 100%;
 }
 
-a {
-    color: black;
+.navbar-custom a {
+    color: #f1f2f6;
 }
+
+.navbar-custom a:hover {
+    background-color: #f1f2f6;
+    color: #282c34;
+}
+
 
 .project-tile {
     margin: 5px;
