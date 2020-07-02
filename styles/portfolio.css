@@ -40,9 +40,20 @@ body {
     color: #282c34;
 }
 
+.projects {
+    margin-top: 30px;
+}
+.project-tile {
+    margin-bottom: 10px;
+}
 
 .project-tile {
-    /*max-width: 400px;*/
+    margin-top: 30px;
+}
+
+.project-tile a {
+    color: #282c34;
+    font-weight: bolder;
 }
 
 .contact {
