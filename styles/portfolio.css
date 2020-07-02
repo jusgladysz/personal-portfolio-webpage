@@ -44,3 +44,15 @@ body {
 .project-tile {
     margin: 5px;
 }
+
+.contact {
+    background-color: #282c34;
+}
+
+.contact a{
+    color: #f1f2f6;
+}
+
+.modal-footer a{
+    color: black;
+}
