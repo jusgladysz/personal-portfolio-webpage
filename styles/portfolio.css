@@ -68,6 +68,11 @@ textarea {
     resize: none;
 }
 
+.icon{
+    font-size: 28px;
+    color: #282c34;
+}
+
 .modal-footer a {
     color: black;
 }
