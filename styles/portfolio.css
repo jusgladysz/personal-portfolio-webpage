@@ -60,6 +60,11 @@ body {
     background-color: #282c34;
 }
 
+.contact form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .contact a {
     color: #f1f2f6;
 }
@@ -73,12 +78,12 @@ textarea {
     padding-bottom: 30px;
 }
 
-.find-me ul{
+.find-me ul {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.icon{
+.icon {
     font-size: 28px;
     color: #282c34;
 }
