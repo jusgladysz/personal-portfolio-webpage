@@ -23,6 +23,7 @@ body {
     color: #f1f2f6;
     font-weight: bold;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar-custom a {
