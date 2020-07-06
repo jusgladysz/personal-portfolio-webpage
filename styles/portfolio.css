@@ -37,6 +37,7 @@ body {
 .projects {
     margin-top: 30px;
 }
+
 .project-tile {
     margin-bottom: 10px;
 }
@@ -53,13 +54,19 @@ body {
 .contact {
     color: #f1f2f6;
     margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #282c34;
 }
 
-.contact a{
+.contact a {
     color: #f1f2f6;
 }
 
-.modal-footer a{
+textarea {
+    resize: none;
+}
+
+.modal-footer a {
     color: black;
 }

@@ -72,19 +72,25 @@
         <div class="container">
             <h2>Contact me</h2>
             <form id="survey-form">
-                <div class="form-group">
-                    <label for="name" id="name-label">Your name:</label>
-                    <input id="name" placeholder="Enter your name" required type="text">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="form-group">
+                            <label for="name" id="name-label">Your name:</label>
+                            <input class="form-control" id="name" placeholder="Enter your name" required type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" id="email-label">Email:</label>
+                            <input class="form-control" id="email" placeholder="Enter your Email" required type="email">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="form-group" id="comment">
+                            <label for="message" id="message-label">Your message:</label>
+                            <div><textarea rows="5" class="form-control" id="message">Your massage...</textarea></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email" id="email-label">Email:</label>
-                    <input id="email" placeholder="Enter your Email" required type="email">
-                </div>
-                <div class="form-group" id="comment">
-                    <label for="message" id="message-label">Your message:</label>
-                    <div><textarea id="message">Your massage...</textarea></div>
-                </div>
-                <button type="submit">Submit</button>
+                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
             </form>
             <a href="https://github.com/jusgladysz" id="profile-link" target="_blank">Github profile</a>
         </div>
