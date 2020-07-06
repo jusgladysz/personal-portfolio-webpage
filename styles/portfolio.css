@@ -68,6 +68,16 @@ textarea {
     resize: none;
 }
 
+.find-me {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.find-me ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .icon{
     font-size: 28px;
     color: #282c34;

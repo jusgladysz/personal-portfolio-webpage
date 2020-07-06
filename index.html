@@ -7,7 +7,7 @@
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela"
           rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2be3c41e79.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/2be3c41e79.js"></script>
     <link href="styles/portfolio.css"
           rel="stylesheet">
 </head>
@@ -87,20 +87,29 @@
                     <div class="col-sm-12 col-lg-6">
                         <div class="form-group" id="comment">
                             <label for="message" id="message-label">Your message:</label>
-                            <div><textarea rows="5" class="form-control" id="message">Your massage...</textarea></div>
+                            <div><textarea class="form-control" id="message" rows="5">Your massage...</textarea></div>
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+                <button class="btn btn-secondary btn-lg" type="submit">Submit</button>
             </form>
         </div>
     </section>
     <section class="find-me" id="find-me">
         <div class="container text-center">
             <h2>Find me!</h2>
-            <a href="https://github.com/jusgladysz" id="profile-link" target="_blank"><i class="fa fa-github icon" aria-hidden="true"></i></a>
-            <a href="https://www.freecodecamp.org/jusgladysz" target="_blank"><i class="fa fa-free-code-camp icon" aria-hidden="true"></i></a>
-
+            <ul class="list-group list-group-horizontal-md justify-content-center">
+                <li class="list-group-item">
+                    <a href="https://github.com/jusgladysz" id="profile-link" target="_blank">
+                        <i aria-hidden="true" class="fa fa-github icon"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.freecodecamp.org/jusgladysz" target="_blank">
+                        <i aria-hidden="true" class="fa fa-free-code-camp icon"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
     <footer class="modal-footer">
